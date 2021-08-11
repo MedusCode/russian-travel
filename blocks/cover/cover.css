@@ -1,11 +1,12 @@
 .cover {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   min-height: 740px;
   background-image: url(../../images/cover/background.jpg);
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 
 .cover::before {
@@ -18,4 +19,9 @@
   background: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
 }

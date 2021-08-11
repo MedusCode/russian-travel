@@ -17,8 +17,8 @@
     <header class="header page__section-wide">
       <div class="header__logo"></div>
       <div class="header__lang">
-        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
+        <a href="#" class="header__lang-link header__lang-link_active page__link">Ru</a>
+        <a href="#" class="header__lang-link page__link">En</a>
       </div>
     </header>
 
@@ -70,7 +70,7 @@
         <h2 class="page__card-title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
-          <a href="#" class="place__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" class="place__link page__link" target="_blank">park-kosa.ru</a>
         </div>
         <img src="./images/place/Kurshskaya-kosa.jpg" alt="Фото Куршской косы" class="place__image">
         <div class="place__text">
@@ -82,9 +82,9 @@
         <h2 class="page__card-title">Кольский</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
-          <a href="#" class="place__link">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link page__link" target="_blank">National Geographic</a>
         </div>
-        <img src="./images/place/Kola.jpg" alt="" class="place__image">
+        <img src="./images/place/Kola.jpg" alt="Фото Кольского" class="place__image">
         <div class="place__text">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
             тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -98,9 +98,9 @@
         <h2 class="page__card-title">Алтай</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
-          <a href="#" class="place__link">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link page__link" target="_blank">Facebook</a>
         </div>
-        <img src="./images/place/Altai.jpg" alt="" class="place__image">
+        <img src="./images/place/Altai.jpg" alt="Фото Алтая" class="place__image">
         <div class="place__text">
           <p class="place__paragraph">Алтай — одно из красивейших мест в России.
             В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете
@@ -114,9 +114,9 @@
         <h2 class="page__card-title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
-          <a href="#" class="place__link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" class="place__link page__link" target="_blank">https://vk.com/baikalmile</a>
         </div>
-        <img src="./images/place/Baikal.jpg" alt="" class="place__image">
+        <img src="./images/place/Baikal.jpg" alt="Фото зимнего Байкала" class="place__image">
         <div class="place__text">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
             в мире. Многие также знают, что это самый большой источник пресной воды и одно
@@ -128,9 +128,9 @@
         <h2 class="page__card-title">Карелия</h2>
         <div class="place__website">
           <p class="place__url-heading">url</p>
-          <a href="#" class="place__link">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" class="place__link page__link" target="_blank">http://vodlozero.ru/</a>
         </div>
-        <img src="./images/place/Karelians.jpg" alt="" class="place__image">
+        <img src="./images/place/Karelians.jpg" alt="Фото Карелии" class="place__image">
         <div class="place__text">
           <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
@@ -138,13 +138,24 @@
     </section>
 
     <!-- cover -->
-    <section class="cover page__section page__section-wide page__image">
+    <section class="cover page__section page__section-wide page__image" onclick="window.open('https://stampsy.com/na-elektrichkakh-do-baikala');">
       <div>
         <h2 class="cover__title page__card-title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </div>
     </section>
 
+    <!-- footer -->
+    <footer class="footer page__section page__section-wide">
+      <ul class="footer__links-list">
+        <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer__list-item"><a class="page__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="footer__list-item"><a class="page__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="footer__list-item"><a class="page__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; 2021. Андреев Никита</p>
+    </footer>
 
   </div>
 </body>
