@@ -1,3 +1,17 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__section-narrow/page__section-narrow.css);
+@import url(../blocks/page/__section-wide/page__section-wide.css);
+@import url(../blocks/page/__section/page__section.css);
+@import url(../blocks/card-title/card-title.css);
+@import url(../blocks/image/image.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+
+
 
