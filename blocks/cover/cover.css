@@ -1,12 +1,8 @@
 .cover {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 740px;
   background-image: url(../../images/cover/background.jpg);
   position: relative;
   z-index: 1;
-  padding: 0;
+  padding: 0 0 62.5% 0;
   cursor: pointer;
 }
 
@@ -36,5 +32,11 @@
 @media screen and (max-width: 976px) {
   .cover {
     margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 64px;
   }
 }

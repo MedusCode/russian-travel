@@ -4,3 +4,17 @@
   align-items: flex-end;
   padding: 0 48px 24px 48px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 0 24px 24px 24px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 0 16px 24px 16px;
+    max-width: 720px;
+  }
+}
