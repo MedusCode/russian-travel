@@ -26,3 +26,15 @@
 .cover:hover::before {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    max-width: 100%;;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .cover {
+    margin-top: 90px;
+  }
+}

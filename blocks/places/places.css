@@ -3,3 +3,9 @@
   grid-template-columns: 100%;
   gap: 80px;
 }
+
+@media screen and (max-width: 976px) {
+  .places {
+    gap: 73px;
+  }
+}

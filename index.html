@@ -50,7 +50,7 @@
       </div>
 
       <!-- photo-grid -->
-      <section class="photo-grid page__section page__section-wide">
+      <div class="photo-grid page__section page__section-wide">  <!-- Валидатор ругается,на то что у section нет заголовка, поэтому использую div -->
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-train.jpg" alt="Фото в поезде">
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Фото Горы">
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-tuman.jpg" alt="Фото в тумане">
@@ -63,12 +63,12 @@
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Фото поля Камчатки">
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="Фото Байкал вид с гор">
         <img class="photo-grid__item" src="./images/photo-grid/photo-grid-ergaki.jpg" alt="Фото природный парк Ергаки">
-      </section>
+      </div>
 
       <!-- places -->
       <section class="places page__section page__section-narrow">
         <div class="place">
-          <h2 class="page__card-title">Куршская коса</h2>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
             <a href="http://park-kosa.ru" class="place__link page__link" target="_blank">park-kosa.ru</a>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="place">
-          <h2 class="page__card-title">Кольский</h2>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link page__link" target="_blank">National Geographic</a>
@@ -92,7 +92,7 @@
           </div>
         </div>
         <div class="place">
-          <h2 class="page__card-title">Алтай</h2>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link page__link" target="_blank">Facebook</a>
@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="place">
-          <h2 class="page__card-title">Зимний Байкал</h2>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
             <a href="https://vk.com/baikalmile" class="place__link page__link" target="_blank">https://vk.com/baikalmile</a>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="place">
-          <h2 class="page__card-title">Карелия</h2>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">url</p>
             <a href="http://vodlozero.ru" class="place__link page__link" target="_blank">http://vodlozero.ru/</a>
@@ -131,7 +131,7 @@
       <!-- cover -->
       <section class="cover page__section page__section-wide page__image" onclick="window.open('https://stampsy.com/na-elektrichkakh-do-baikala');">
         <div>
-          <h2 class="cover__title page__card-title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </div>
       </section>
@@ -139,13 +139,15 @@
 
     <!-- footer -->
     <footer class="footer page__section page__section-wide">
-      <ul class="footer__links-list">     <!--  Не использую тэг <nav>, так как это не навигация по сайту, а ссылки на другие сайты -->
-        <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li class="footer__list-item"><a class="page__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li class="footer__list-item"><a class="page__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li class="footer__list-item"><a class="page__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
+      <nav>
+        <ul class="footer__links-list">
+          <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__list-item"><a class="page__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__list-item"><a class="page__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list-item"><a class="page__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__list-item"><a class="page__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2021. Андреев Никита</p>
     </footer>
 
