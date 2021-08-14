@@ -22,4 +22,4 @@
 
 **ссылка GitHub Pages**
 
-* [Ссылка на GitHub Pages](#)
+* [Ссылка на GitHub Pages](https://meduscode.github.io/russian-travel/)
