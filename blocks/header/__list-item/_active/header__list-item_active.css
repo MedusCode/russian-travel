@@ -1,0 +1,17 @@
+.header__list-item_active {
+  margin-bottom: 4.5px;
+}
+
+.header__list-item_active .page__link {
+  border-bottom: 1.5px solid #fff;
+}
+
+@media screen and (max-width: 751px) {
+  .header__list-item_active {
+    margin-bottom: 7px;
+  }
+
+  .header__list-item_active .page__link {
+    border-bottom: 1px solid #fff;
+  }
+}
