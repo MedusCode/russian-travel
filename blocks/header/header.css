@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 28px 48px 56px 48px;
+  max-width: 1184px;
   min-height: 52px;
 }
 
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 751px) {
   .header {
     padding: 16px 16px 48px 16px;
     max-width: 720px;

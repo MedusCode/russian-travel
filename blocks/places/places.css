@@ -4,8 +4,14 @@
   gap: 80px;
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 975px) {
   .places {
     gap: 73px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .places {
+    gap: 50px;
   }
 }

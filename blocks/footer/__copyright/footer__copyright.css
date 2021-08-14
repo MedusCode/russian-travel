@@ -3,3 +3,9 @@
   line-height: 1.14;
   margin: 0;
 }
+
+@media screen and (max-width: 751px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}
