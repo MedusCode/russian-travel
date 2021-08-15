@@ -24,7 +24,6 @@
 
 .cover::after {
   content: '';
-  display: block;
   padding-bottom: 62.5%;
 }
 
