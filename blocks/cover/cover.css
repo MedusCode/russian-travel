@@ -26,7 +26,6 @@
   content: '';
   display: block;
   padding-bottom: 62.5%;
-  width: 0.5px;
 }
 
 .cover:hover::before {
