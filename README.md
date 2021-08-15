@@ -20,6 +20,6 @@
 * адаптивность (@media)
 * сглаживание шрифтов
 
-**ссылка GitHub Pages**
+**Ссылка GitHub Pages**
 
 * [Ссылка на GitHub Pages](https://meduscode.github.io/russian-travel/)
