@@ -1,12 +1,8 @@
 .cover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   padding: 0;
   background-image: url(../../images/cover/background.jpg);
   z-index: 1;
-  cursor: pointer;
 }
 
 .cover::before {
@@ -20,11 +16,6 @@
   opacity: 0.3;
   z-index: -1;
   transition: opacity 0.3s ease-in-out;
-}
-
-.cover::after {
-  content: '';
-  padding-bottom: 62.5%;
 }
 
 .cover:hover::before {

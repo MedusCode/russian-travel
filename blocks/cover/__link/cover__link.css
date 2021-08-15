@@ -1,0 +1,13 @@
+.cover__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cover__link::after {
+  content: '';
+  padding-bottom: 62.5%;
+}
