@@ -1,7 +1,16 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  background-image: url(../../../images/header/__logo.svg);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo:hover .header__logo-text {
+  transform: translate(-105%, 0);
+}
+
+.header__logo:hover .header__logo-img {
+  transform: translate(144%, 0);
 }
 
 @media screen and (max-width: 751px) {
@@ -11,3 +20,5 @@
     background-size: contain;
   }
 }
+
+

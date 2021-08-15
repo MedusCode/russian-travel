@@ -1,0 +1,10 @@
+.header__logo-text {
+  background-image: url(../../../images/header/logo-text.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50.5%;
+  height: 34%;
+  padding-top: 14.5%;
+  transition: 0.5s ease-in-out;
+}
