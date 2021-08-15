@@ -10,7 +10,7 @@
 }
 
 .header__logo:hover .header__logo-img {
-  transform: translate(144%, 0);
+  transform: translate(130%, 0);
 }
 
 @media screen and (max-width: 751px) {

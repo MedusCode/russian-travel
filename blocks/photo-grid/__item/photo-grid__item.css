@@ -5,4 +5,5 @@
 
 .photo-grid__item:hover {
   transform: scale(0.99);
+  border-radius: 2px;
 }
