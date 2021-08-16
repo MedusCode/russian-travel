@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/scrollbar/scrollbar.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section-narrow/page__section-narrow.css);
 @import url(../blocks/page/__section-wide/page__section-wide.css);
