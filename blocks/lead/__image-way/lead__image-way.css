@@ -1,0 +1,9 @@
+.lead__image-way {
+  display: block;
+  position: absolute;
+  width: 95.3%;
+  height: 42.7%;
+  top: 14.6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
